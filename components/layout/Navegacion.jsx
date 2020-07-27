@@ -1,9 +1,12 @@
 import React from "react";
+import Link from "next/link";
 
 const Navegacion = () => {
   return (
     <nav>
-      <div />
+      <Link href="/">Inicio</Link>
+      <Link href="/">Populares</Link>
+      <Link href="/">Nuevo Producto</Link>
     </nav>
   );
 };

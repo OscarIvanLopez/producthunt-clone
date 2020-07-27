@@ -1,6 +1,7 @@
 import React from "react";
-import styled from "@emotion/styled";
 import Buscar from "../ui/Buscar";
+import Navegacion from "./Navegacion";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -11,10 +12,17 @@ const Header = () => {
 
           <Buscar />
 
-          {/* Nav Aqui */}
+          <Navegacion />
         </div>
 
-        <div>{/* Menu de administracion */}</div>
+        <div>
+          <p>Hola: Ivan</p>
+
+          <button type="button">Cerrar Session</button>
+
+          <Link href="/">Login</Link>
+          <Link href="/">Crear Cuenta</Link>
+        </div>
       </div>
     </header>
   );

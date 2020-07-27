@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div>
       <Layout>
-        <Heading>Home</Heading>
+        <Heading>Inicio</Heading>
       </Layout>
     </div>
   );

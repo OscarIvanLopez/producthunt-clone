@@ -5,7 +5,7 @@ const Buscar = () => {
     <form action="">
       <input type="text" />
 
-      <button type="submit" />
+      <button type="submit">Buscar</button>
     </form>
   );
 };
